@@ -28,6 +28,8 @@ private:
                 }
                 queens[row] = -1;
             }
+            cout<<"\n";
+            printSolution();
         }
 
         return false;
